@@ -7,10 +7,17 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="IOC 设置视图" />
+        android:gravity="center"
+        android:text="IOC点击1" />
+    <Button
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="IOC点击2" />
 
 </LinearLayout>
